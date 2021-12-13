@@ -1,0 +1,21 @@
+header{
+    background-color: #42A5F5;
+}
+nav{
+    display: flex;
+}
+a{  
+    display: block;
+    padding: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #FAFAFA;
+    transition: 400ms ease all;
+}
+a:hover{
+    background-color: #1976D2;
+}
+.active{
+    background-color: #1976D2;
+    color:#FAFAFA
+}
